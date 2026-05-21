@@ -7,7 +7,8 @@ Separate Landingpage fuer den SMART SummaryAssistent.
 - `index.html` - statische Landingpage
 - `landing.css` - Landingpage-Styles
 - `assets/smart-summary-icon.png` - App-Icon
-- `screenshot-premium-workflow.png` - Produkt-Screenshot fuer den Hero
+- `landing-hero-shot.png` - Hero-Screenshot
+- `landing-product-shot.png` - Produkt-Screenshot
 
 Die eigentliche App liegt separat unter:
 
