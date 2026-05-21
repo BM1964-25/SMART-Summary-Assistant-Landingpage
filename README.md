@@ -1,0 +1,14 @@
+# SMART Summary Assistant Landingpage
+
+Separate Landingpage fuer den SMART Summary Assistant.
+
+## Dateien
+
+- `index.html` - statische Landingpage
+- `landing.css` - Landingpage-Styles
+- `assets/smart-summary-icon.png` - App-Icon
+- `screenshot-premium-workflow.png` - Produkt-Screenshot fuer den Hero
+
+Die eigentliche App liegt separat unter:
+
+https://github.com/BM1964-25/SMART-Summary-Assistant
