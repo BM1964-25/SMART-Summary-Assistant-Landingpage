@@ -1,6 +1,6 @@
-# SMART Summary Assistant Landingpage
+# SMART SummaryAssistent Landingpage
 
-Separate Landingpage fuer den SMART Summary Assistant.
+Separate Landingpage fuer den SMART SummaryAssistent.
 
 ## Dateien
 
