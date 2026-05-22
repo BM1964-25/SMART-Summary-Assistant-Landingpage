@@ -254,36 +254,53 @@ p {
 
 .hero-metrics {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 210px));
+  justify-content: start;
   gap: 14px;
-  max-width: 900px;
+  max-width: 680px;
   margin: 0;
 }
 
 .hero-metrics div {
-  min-height: 122px;
+  min-height: 112px;
   display: grid;
   align-content: center;
-  justify-items: start;
-  padding: 20px 22px;
+  justify-items: center;
+  padding: 18px 16px;
   border: 1px solid rgba(255, 255, 255, 0.16);
   border-radius: 12px;
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(18px);
-  text-align: left;
+  text-align: center;
 }
 
 .hero-metrics dt {
+  display: grid;
+  justify-items: center;
+  gap: 8px;
   color: rgba(255, 255, 255, 0.96);
   font-size: 1rem;
   font-weight: 850;
 }
 
+.hero-metrics dt::before {
+  content: "✓";
+  width: 18px;
+  height: 18px;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  color: #9ed6be;
+  font-size: 1rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
 .hero-metrics dd {
-  margin: 12px 0 0;
+  margin: 9px 0 0;
   color: rgba(255, 255, 255, 0.84);
-  font-size: 0.98rem;
-  line-height: 1.48;
+  font-size: 0.9rem;
+  line-height: 1.38;
 }
 
 .trust-strip {
@@ -1007,6 +1024,7 @@ p {
 
   .hero-metrics {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+    max-width: none;
     gap: 8px;
   }
 
@@ -1020,6 +1038,12 @@ p {
   .hero-metrics dt {
     font-size: 0.78rem;
     line-height: 1.2;
+  }
+
+  .hero-metrics dt::before {
+    width: 15px;
+    height: 15px;
+    font-size: 0.85rem;
   }
 
   .hero-metrics dd {
