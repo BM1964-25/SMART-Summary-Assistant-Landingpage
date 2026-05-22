@@ -743,6 +743,12 @@ p {
   color: rgba(255, 255, 255, 0.9);
 }
 
+.section .eyebrow.dark,
+.product-band .eyebrow.dark,
+.pricing-copy .eyebrow {
+  margin: 0 0 16px;
+}
+
 .price-card {
   min-width: 0;
   display: grid;
