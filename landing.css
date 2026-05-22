@@ -413,7 +413,7 @@ p {
 }
 
 .workflow-section {
-  background: #eef4f8;
+  background: #fff;
 }
 
 .workflow-timeline {
@@ -537,7 +537,8 @@ p {
   background: #fff;
 }
 
-.audience-section {
+.audience-section,
+.security-section {
   background: #f4f7fb;
 }
 
@@ -601,7 +602,6 @@ p {
   grid-template-columns: minmax(0, 0.9fr) minmax(320px, 0.62fr);
   gap: 34px;
   align-items: start;
-  background: #f4f7fb;
 }
 
 .security-copy p,
