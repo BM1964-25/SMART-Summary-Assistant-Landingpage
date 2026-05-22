@@ -518,6 +518,7 @@ p {
 }
 
 .product-shot {
+  position: relative;
   justify-self: end;
   width: min(100%, 680px);
   margin: 0;
@@ -525,6 +526,17 @@ p {
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: var(--radius);
   box-shadow: 0 34px 90px rgba(0, 0, 0, 0.32);
+}
+
+.product-shot::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg, rgba(3, 13, 28, 0.38) 0%, rgba(7, 26, 51, 0.18) 42%, rgba(7, 26, 51, 0.04) 100%),
+    linear-gradient(180deg, rgba(7, 16, 29, 0.02) 0%, rgba(7, 16, 29, 0.08) 58%, rgba(7, 16, 29, 0.28) 100%);
 }
 
 .product-shot img {
