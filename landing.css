@@ -830,19 +830,21 @@ p {
   gap: 3px;
   margin: -8px 0 0;
   color: rgba(255, 255, 255, 0.82);
+  font-size: 0.92rem;
   line-height: 1.35;
 }
 
 .price-chips {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 7px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 9px;
 }
 
 .price-chips span {
   min-height: 30px;
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   padding: 0 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 999px;
@@ -861,10 +863,14 @@ p {
 
 .price-details div {
   min-height: 82px;
+  display: grid;
+  align-content: center;
+  justify-items: center;
   padding: 14px;
   border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: var(--radius);
   background: rgba(7, 26, 51, 0.2);
+  text-align: center;
 }
 
 .price-details dt {
@@ -1056,6 +1062,10 @@ p {
   }
 
   .price-details {
+    grid-template-columns: 1fr;
+  }
+
+  .price-chips {
     grid-template-columns: 1fr;
   }
 
