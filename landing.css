@@ -830,7 +830,7 @@ p {
   gap: 3px;
   margin: -8px 0 0;
   color: rgba(255, 255, 255, 0.82);
-  font-size: 0.92rem;
+  font-size: 0.84rem;
   line-height: 1.35;
 }
 
@@ -889,6 +889,8 @@ p {
 
 .price-key-note {
   display: grid;
+  justify-items: center;
+  text-align: center;
   gap: 4px;
   margin: 0;
   padding: 14px;
