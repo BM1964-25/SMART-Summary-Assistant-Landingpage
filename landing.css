@@ -254,10 +254,10 @@ p {
 
 .hero-metrics {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 210px));
+  width: min(100%, 714px);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   justify-content: start;
   gap: 14px;
-  max-width: 680px;
   margin: 0;
 }
 
