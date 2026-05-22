@@ -821,46 +821,54 @@ p {
   font-size: 1.04rem;
 }
 
+.price-line span {
+  line-height: 1.35;
+}
+
 .tax-note {
+  display: grid;
+  gap: 3px;
   margin: -8px 0 0;
+  color: rgba(255, 255, 255, 0.82);
+  line-height: 1.35;
 }
 
 .price-chips {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 7px;
 }
 
 .price-chips span {
-  min-height: 34px;
+  min-height: 30px;
   display: inline-flex;
   align-items: center;
-  padding: 0 12px;
+  padding: 0 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.1);
   color: rgba(255, 255, 255, 0.88);
-  font-size: 0.9rem;
+  font-size: 0.84rem;
   font-weight: 780;
 }
 
 .price-details {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 10px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 9px;
   margin: 2px 0 0;
 }
 
 .price-details div {
-  min-height: 96px;
-  padding: 16px;
+  min-height: 82px;
+  padding: 14px;
   border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: var(--radius);
   background: rgba(7, 26, 51, 0.2);
 }
 
 .price-details dt {
-  margin-bottom: 7px;
+  margin-bottom: 6px;
   color: #9ed6be;
   font-size: 0.82rem;
   font-weight: 850;
@@ -869,6 +877,27 @@ p {
 
 .price-details dd {
   margin: 0;
+  color: rgba(255, 255, 255, 0.84);
+  line-height: 1.42;
+}
+
+.price-key-note {
+  display: grid;
+  gap: 4px;
+  margin: 0;
+  padding: 14px;
+  border: 1px solid rgba(158, 214, 190, 0.2);
+  border-radius: var(--radius);
+  background: rgba(158, 214, 190, 0.08);
+}
+
+.price-key-note strong {
+  color: #9ed6be;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+}
+
+.price-key-note span {
   color: rgba(255, 255, 255, 0.84);
   line-height: 1.42;
 }
