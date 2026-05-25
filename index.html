@@ -19,7 +19,7 @@
       <a href="#pricing">Lizenz</a>
       <a href="#faq">FAQ</a>
     </nav>
-    <a class="nav-cta" href="https://github.com/BM1964-25/SMART-Summary-Assistant" data-preorder-trigger>Lizenz sichern <span aria-hidden="true">→</span></a>
+    <a class="nav-cta" href="https://bm1964-25.github.io/Landing-Tafel-Kontakt/">Lizenz sichern <span aria-hidden="true">→</span></a>
   </header>
 
   <main>
@@ -36,7 +36,7 @@
         <h1 id="hero-title">SMART SummaryAssistent</h1>
         <p class="hero-copy">Verdichte lange Dokumente, Berichte, E-Mails und Fachinhalte in klare Ergebnisse. Steuerbar nach Länge, Sprache, Zielgruppe, Fokus, Ton und Ausgabeformat.</p>
         <div class="hero-actions" aria-label="Hauptaktionen">
-          <a class="primary-button" href="https://github.com/BM1964-25/SMART-Summary-Assistant" data-preorder-trigger>Jetzt kaufen <span aria-hidden="true">→</span></a>
+          <a class="primary-button" href="https://bm1964-25.github.io/Landing-Tafel-Kontakt/">Jetzt kaufen <span aria-hidden="true">→</span></a>
           <a class="secondary-button" href="#features">Funktionen ansehen <span aria-hidden="true">→</span></a>
         </div>
         <dl class="hero-metrics" aria-label="Produktvorteile">
@@ -236,7 +236,7 @@
           <div><dt>Zahlung</dt><dd>Sichere Online-Zahlung</dd></div>
         </dl>
         <p class="price-key-note"><strong>KI-Nutzung</strong><span>Eigener Anthropic API-Key erforderlich</span></p>
-        <a class="price-button" href="https://github.com/BM1964-25/SMART-Summary-Assistant" data-preorder-trigger>Lizenz sichern</a>
+        <a class="price-button" href="https://bm1964-25.github.io/Landing-Tafel-Kontakt/">Lizenz sichern</a>
         <p class="price-footnote">Jahreslizenz | sichere Zahlung | persönlicher Nutzerzugriff</p>
       </article>
     </section>
@@ -308,52 +308,5 @@
       </nav>
     </div>
   </footer>
-  <div class="preorder-modal" data-preorder-modal aria-hidden="true">
-    <div class="preorder-backdrop" data-preorder-close></div>
-    <section class="preorder-panel" role="dialog" aria-modal="true" aria-labelledby="preorder-title" aria-describedby="preorder-copy" tabindex="-1">
-      <button class="preorder-close" type="button" aria-label="Hinweis schließen" data-preorder-close>×</button>
-      <p class="eyebrow dark">Vorbestellung</p>
-      <h2 id="preorder-title">SMART SummaryAssistent ist in Vorbereitung.</h2>
-      <div id="preorder-copy" class="preorder-copy">
-        <p>Der Kaufbereich wird derzeit vorbereitet. Bei Interesse kannst du eine Vorbestellung vormerken lassen.</p>
-        <p>Sobald Testphase, Zahlung und Lizenzfreischaltung aktiv sind, führt der Kaufbutton direkt zur sicheren Online-Bestellung.</p>
-      </div>
-      <div class="preorder-actions">
-        <a class="preorder-primary" href="mailto:info@built-smart-hub.com?subject=Vorbestellung%20SMART%20SummaryAssistent">Vorbestellung anfragen <span aria-hidden="true">→</span></a>
-        <button class="preorder-secondary" type="button" data-preorder-close>Schließen</button>
-      </div>
-    </section>
-  </div>
-  <script>
-    (() => {
-      const modal = document.querySelector("[data-preorder-modal]");
-      const panel = modal?.querySelector(".preorder-panel");
-      const triggers = document.querySelectorAll("[data-preorder-trigger]");
-      const closers = modal?.querySelectorAll("[data-preorder-close]") || [];
-      let lastFocus = null;
-
-      const openModal = (event) => {
-        event.preventDefault();
-        lastFocus = document.activeElement;
-        modal.setAttribute("aria-hidden", "false");
-        document.body.classList.add("modal-open");
-        panel?.focus();
-      };
-
-      const closeModal = () => {
-        modal.setAttribute("aria-hidden", "true");
-        document.body.classList.remove("modal-open");
-        lastFocus?.focus?.();
-      };
-
-      triggers.forEach((trigger) => trigger.addEventListener("click", openModal));
-      closers.forEach((closer) => closer.addEventListener("click", closeModal));
-      document.addEventListener("keydown", (event) => {
-        if (event.key === "Escape" && modal.getAttribute("aria-hidden") === "false") {
-          closeModal();
-        }
-      });
-    })();
-  </script>
 </body>
 </html>
