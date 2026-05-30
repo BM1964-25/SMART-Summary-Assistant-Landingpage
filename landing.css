@@ -561,8 +561,8 @@ p {
 }
 
 .feature-grid article {
-  min-height: 178px;
-  padding: 22px;
+  min-height: 132px;
+  padding: 20px 22px;
   box-shadow: none;
 }
 

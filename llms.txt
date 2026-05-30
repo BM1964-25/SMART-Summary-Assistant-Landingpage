@@ -21,6 +21,7 @@ KI-Funktionen:
 - BuiltSmart AI Guthaben oder eigener Anthropic API-Key möglich
 - Ein normales Claude-Abo reicht für die API-Nutzung nicht aus
 - Inhalte werden nur für die jeweilige KI-Anfrage an den Anbieter übertragen
+- Nach Anthropic-Angaben werden API-Daten aus kommerziellen Produkten nicht zum Training generativer Modelle verwendet, sofern keine ausdrückliche Zustimmung zur Modellverbesserung erfolgt
 
 Nutzungsmodell:
 - Einzelplatzanwendung
