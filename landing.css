@@ -476,7 +476,7 @@ p {
 .workflow-list article {
   min-height: 170px;
   display: grid;
-  align-content: center;
+  align-content: start;
   justify-items: center;
   padding: 24px;
   box-shadow: 0 22px 58px rgba(24, 39, 60, 0.08);
