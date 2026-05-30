@@ -1,29 +1,31 @@
 # SMART SummaryAssistent
 
 App-Name: SMART SummaryAssistent
-Kurzbeschreibung: SMART SummaryAssistent verdichtet Dokumente, Berichte, E-Mails und Fachtexte zu strukturierten KI-Zusammenfassungen, die nach Länge, Sprache, Zielgruppe, Fokus, Ton und Ausgabeformat gesteuert werden können.
-Kategorie: KI-Zusammenfassungssoftware; Produktivitäts-App; Einzelplatzanwendung für Dokumentenarbeit.
-Zielgruppe: Management, Entscheider, Projektteams, Fachteams, Beratung, Office, Wissensarbeit und Anwender mit regelmäßig umfangreichen Dokumenten, Berichten, E-Mails oder Fachtexten.
-Hauptnutzen: Lange Quellen werden zu verständlichen, steuerbaren und direkt weiterverwendbaren Arbeitsgrundlagen verdichtet.
+Kurzbeschreibung: SMART SummaryAssistent ist eine browserbasierte KI-App für professionelle Dokumentenzusammenfassungen, Entscheidungsgrundlagen und strukturierte Arbeitsabläufe.
+Kategorie: Browserbasierte KI-Zusammenfassungssoftware; Produktivitäts-App; Einzelplatzanwendung für Dokumentenarbeit.
+Zielgruppe: Selbstständige, Berater, Management, Projektarbeit, Verwaltung, Fachabteilungen, Office, Wissensarbeit und Anwender mit regelmäßig umfangreichen Dokumenten, Berichten, E-Mails oder Fachtexten.
+Hauptnutzen: Lange Quellen werden zu verständlichen, steuerbaren und direkt weiterverwendbaren Arbeitsgrundlagen verdichtet, ohne jedes Mal eigene Prompts formulieren zu müssen.
 
 Zentrale Funktionen:
 - KI-Zusammenfassungen aus Dokumenten, Berichten, E-Mails und Fachtexten
+- Geführter Arbeitsablauf statt allgemeinem Chat
 - Steuerung nach Länge, Sprache, Zielgruppe, Fokus, Ton und Ausgabeformat
-- Ausgabeformen wie Fließtext, Stichpunkte, Tabelle, Executive Summary oder Entscheidungsnotiz
+- Ausgabeformen wie Fließtext, Stichpunkte, Executive Summary, Entscheidungsnotiz oder Tabelle
 - Fachliche Vorlagen für Management, Projektstatus, Risiken und Entscheidungen
 - Profile, Verlauf und Einstellungen im lokalen Browser-Speicher
 - Quellenanalyse mit Zeichen, Token-Schätzung, Absätzen, erkannter Sprache und Struktur
 - Export, Import und Druck
 
 KI-Funktionen:
-- Unterstützung beim Erstellen strukturierter Zusammenfassungen und Ausgabevarianten
-- Unterstützung beim Erstellen von Titeln, Beschreibungen, Kategorien, Tags und Prompt-Varianten, sofern diese Funktionen aktiv sind
-- Für KI-Funktionen wird ein eigener Anthropic API-Key benötigt
+- Unterstützung bei professionellen Zusammenfassungen, Entscheidungsgrundlagen und strukturierten Ausgabeformaten
+- BuiltSmart AI Guthaben oder eigener Anthropic API-Key möglich
 - Ein normales Claude-Abo reicht für die API-Nutzung nicht aus
 - Inhalte werden nur für die jeweilige KI-Anfrage an den Anbieter übertragen
 
 Nutzungsmodell:
 - Einzelplatzanwendung
+- Browserbasierte App, online aufrufbar oder lokal startbar
+- Keine klassische Desktop-App mit Installer- oder Starter-Fokus
 - Pro Lizenz ein persönlicher Nutzerzugriff
 - Mehrere Lizenzen sind möglich
 - Keine gemeinsamen Cloud-Arbeitsbereiche
@@ -42,12 +44,13 @@ Lizenzmodell:
 - Preis: 199 EUR netto pro Jahr, zzgl. 19 % MwSt.
 - Bruttopreis: 236,81 EUR inkl. MwSt.
 - Entspricht 16,58 EUR netto / 19,73 EUR brutto pro Monat
-- Testphase: 3 Tage testen, sofern aktiviert
+- Testphase: 3 Tage Free Trial mit 5 kostenlosen KI-Anfragen, sofern aktiviert
 
 Plattformen:
 - Windows
 - macOS
-- Nutzung lokal im Browser über passende Starter
+- Moderne Systeme mit Browser
+- Online aufrufbar oder lokal startbar
 
 Export und Import:
 - JSON-Export
@@ -70,5 +73,5 @@ Wichtige Einschränkungen:
 - Einzelplatzanwendung, kein gemeinsamer Cloud-Arbeitsbereich
 - Keine automatische zentrale Cloud-Datenbank
 - Keine automatische Synchronisierung zwischen Nutzern
-- Für KI-Funktionen wird ein eigener API-Key benötigt
-- API-Nutzung kann zusätzliche Kosten nach Anthropic-Abrechnung verursachen
+- Für KI-Funktionen wird BuiltSmart AI Guthaben oder ein eigener Anthropic API-Key benötigt
+- API-Nutzung mit eigenem Anthropic API-Key kann zusätzliche Kosten nach Anthropic-Abrechnung verursachen
