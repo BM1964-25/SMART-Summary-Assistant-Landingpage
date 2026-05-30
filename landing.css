@@ -385,8 +385,12 @@ p {
 
 .use-case-grid article {
   min-height: 160px;
+  display: grid;
+  align-content: center;
+  justify-items: center;
   padding: 20px 18px;
   box-shadow: none;
+  text-align: center;
 }
 
 .use-case-grid h3,
