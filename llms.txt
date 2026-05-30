@@ -41,9 +41,9 @@ Lizenzmodell:
 - Laufzeit 12 Monate
 - Automatische Verlängerung um weitere 12 Monate
 - Kündigungsfrist 1 Monat vor Ablauf
-- Preis: 199 EUR netto pro Jahr, zzgl. 19 % MwSt.
-- Bruttopreis: 236,81 EUR inkl. MwSt.
-- Entspricht 16,58 EUR netto / 19,73 EUR brutto pro Monat
+- Preis: 99 EUR netto pro Jahr, zzgl. 19 % MwSt.
+- Bruttopreis: 117,81 EUR inkl. MwSt.
+- Entspricht 8,25 EUR netto / 9,82 EUR brutto pro Monat
 - Testphase: 3 Tage Free Trial mit 5 kostenlosen KI-Anfragen, sofern aktiviert
 
 Plattformen:
