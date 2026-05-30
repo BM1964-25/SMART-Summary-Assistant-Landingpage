@@ -426,8 +426,8 @@ p {
   content: "";
   position: absolute;
   top: 24px;
-  left: calc(12.5% + 24px);
-  right: calc(12.5% + 24px);
+  left: 12.5%;
+  right: 12.5%;
   height: 2px;
   background: linear-gradient(90deg, rgba(22, 104, 184, 0.32), rgba(23, 135, 90, 0.36));
 }
